@@ -18,7 +18,7 @@ st.set_page_config(
 
 st.header("Dog Breed Identification Project🐕‍🦺")
 st.subheader("Check the dog breed with just a sec!")
-st.image("picture/TestDog.png", caption="Test result example")
+st.image("Picture/TestDog.png", caption="Test result example")
 
 with st.container():
     st.subheader("Upload your lovely dog picture to identify the breed!")
