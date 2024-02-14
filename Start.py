@@ -7,7 +7,7 @@ from iden import Iden
 show_pages(
     [
         Page("Start.py", "Home", "🏠"),
-        Page("pages/About.py", "Project Detailed", "📑")
+        Page("Pages/About.py", "Project Detailed", "📑")
     ]
 )
 
