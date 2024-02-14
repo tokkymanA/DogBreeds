@@ -19,7 +19,7 @@ class Iden():
         self.input_byte = input_byte
         self.file = pd.read_csv(LABELS_PATH)
         self.unique_breed = np.unique(np.array(self.file["breed"]))
-        self.LoadModel = tf.keras.models.load_model(MODEL_PATH, custom_objects={"KerasLayer":hub.KerasLayer})
+        self.LoadModel = tf.keras.models.load_model(MODEL_PATH)
         print("Error Load")
         self.make_input = self.create_data_batches([self.input_byte])
         self.prediction = self.LoadModel.predict(self.make_input)
