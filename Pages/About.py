@@ -8,7 +8,7 @@ st.set_page_config(
     page_icon="🐶",
 )
 
-df = pd.read_csv("Csv/labels.csv")
+df = pd.read_csv("CSV/labels.csv")
 st.title("About this project")
 
 st.write("""This project purpose on applied deep learning with interactive web application, 
