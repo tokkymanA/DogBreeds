@@ -7,7 +7,7 @@ import os
 os.environ['F_ENABLE_ONEDNN_OPTS'] = '0' 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
-MODEL_PATH = "Model/20240204-$H0804-full-train1-mobilenetV2.keras"
+MODEL_PATH = "Model/20240214-$H1557-full-train1-mobilenetV2.h5"
 LABELS_PATH = "CSV/labels.csv"
 IMAGE_SIZE = 224
 BATCH_SIZE = 32
