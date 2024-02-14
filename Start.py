@@ -47,6 +47,7 @@ if submitted and uploaded:
 
     except Exception as error :
         st.warning("Can't load model", icon="⚠️")
+        st.write(error)
         print(error)
         print("Load model fail")
 
