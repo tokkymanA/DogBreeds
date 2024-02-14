@@ -38,7 +38,6 @@ if submitted and uploaded:
     bytes_data = uploaded.getvalue()
     try:
         with st.spinner('Load model...'):
-            st.image(image = Image.open(io.BytesIO(bytes_data)))
             ModelLoad = Iden(bytes_data) 
             result = ModelLoad.result
             st.header(f"{result[0]}")
